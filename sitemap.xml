@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/</loc>
-</url>
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/</loc>
+    </url>
+
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-camacari/</loc>
+    </url>
+
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-candeias/</loc>
+    </url>
+
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-lauro-de-freitas/</loc>
+    </url>
+
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-mata-de-sao-joao/</loc>
+    </url>
+
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-salvador/</loc>
+    </url>
+
+    <url>
+        <loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-simoes-filho/</loc>
+    </url>
 
 </urlset>
