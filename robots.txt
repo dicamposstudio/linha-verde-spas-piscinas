@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dicamposstudio.github.io/linha-verde-spas-piscinas/sitemap.xml
