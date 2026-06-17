@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dicamposstudio.github.io/linha-verde-spas-piscinas/parati/sitemap.xml

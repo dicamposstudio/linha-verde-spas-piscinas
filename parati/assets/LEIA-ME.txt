@@ -1,0 +1,9 @@
+Copie para esta pasta as imagens atualizadas com estes nomes:
+- hero.webp
+- logo.webp
+- gerador.webp
+- pool_instalada_1.webp
+- pool_instalada_2.webp
+- pool_instalada_3.webp
+
+As imagens de fábrica foram removidas do HTML e não são mais necessárias.
