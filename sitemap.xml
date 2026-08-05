@@ -1,53 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>weekly</changefreq>
-<priority>1.0</priority>
-</url>
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-camacari/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-candeias/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-lauro-de-freitas/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-mata-de-sao-joao/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-salvador/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-simoes-filho/</loc>
-<lastmod>2026-06-08</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
-</url>
-
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/</loc><lastmod>2026-08-05</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/</loc><lastmod>2026-08-05</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/guia-piscinas-fibra/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/guia-manutencao-piscinas/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/guia-spas-hidromassagens/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/quanto-custa-piscina-salvador/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/piscina-fibra-ou-alvenaria/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/piscina-valoriza-imovel/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/gerador-cloro-piscina/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/blog/artigos/spa-ou-piscina/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/parati/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-camacari/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-salvador/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-lauro-de-freitas/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-simoes-filho/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-candeias/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/piscinas-mata-de-sao-joao/</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dicamposstudio.github.io/linha-verde-spas-piscinas/privacidade/</loc><lastmod>2026-08-05</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>

@@ -16,11 +16,10 @@ function formatarData(data) {
 }
 
 function criarCard(artigo) {
-  const linkValido = artigo.url && artigo.url !== "#";
   return `
     <article class="post-card">
-      <a class="post-image" href="${artigo.url}" ${linkValido ? "" : "aria-disabled='true'"}>
-        <img src="${artigo.imagem}" alt="${artigo.titulo}" loading="lazy">
+      <a class="post-image" href="${artigo.url}">
+        <img src="${artigo.imagem}" alt="${artigo.titulo}" decoding="async" width="1200" height="1600">
       </a>
       <div class="post-content">
         <div class="post-meta">
@@ -31,7 +30,7 @@ function criarCard(artigo) {
         <p>${artigo.descricao}</p>
         <div class="post-footer">
           <small>${formatarData(artigo.data)}</small>
-          <a href="${artigo.url}" class="read-link">${linkValido ? "Ler artigo" : "Em breve"}</a>
+          <a href="${artigo.url}" class="read-link">Ler artigo</a>
         </div>
       </div>
     </article>
@@ -50,7 +49,7 @@ function renderizarDestaque() {
 
   destaqueBox.innerHTML = `
     <div class="featured-image">
-      <img src="${artigo.imagem}" alt="${artigo.titulo}" loading="lazy">
+      <img src="${artigo.imagem}" alt="${artigo.titulo}" decoding="async" width="864" height="1184">
     </div>
     <div class="featured-content">
       <span>${artigo.categoria}</span>

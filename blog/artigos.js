@@ -7,7 +7,7 @@ const artigos = [
     imagem: "../assets/piscina-1.webp",
     url: "artigos/quanto-custa-piscina-salvador/",
     leitura: "8 min",
-    data: "2026-07-09",
+    data: "2026-08-05",
     tags: ["preço", "Salvador", "orçamento"]
   },
   {
@@ -16,9 +16,9 @@ const artigos = [
     destaque: false,
     descricao: "Compare prazo, manutenção, custo e durabilidade antes de escolher o tipo ideal para sua área de lazer.",
     imagem: "../assets/piscina-3.webp",
-    url: "#",
+    url: "artigos/piscina-fibra-ou-alvenaria/",
     leitura: "7 min",
-    data: "2026-07-09",
+    data: "2026-08-05",
     tags: ["fibra", "alvenaria", "comparativo"]
   },
   {
@@ -27,9 +27,9 @@ const artigos = [
     destaque: false,
     descricao: "Veja como uma área de lazer planejada pode aumentar o valor percebido da casa e melhorar a rotina da família.",
     imagem: "../assets/piscina-5.webp",
-    url: "#",
+    url: "artigos/piscina-valoriza-imovel/",
     leitura: "6 min",
-    data: "2026-07-09",
+    data: "2026-08-05",
     tags: ["imóvel", "valorização", "casa"]
   },
   {
@@ -38,9 +38,9 @@ const artigos = [
     destaque: false,
     descricao: "Entenda como o gerador de cloro auxilia no tratamento da água e pode facilitar a manutenção da piscina.",
     imagem: "../assets/piscina-7.webp",
-    url: "#",
+    url: "artigos/gerador-cloro-piscina/",
     leitura: "6 min",
-    data: "2026-07-09",
+    data: "2026-08-05",
     tags: ["cloro", "tratamento", "água"]
   },
   {
@@ -49,9 +49,9 @@ const artigos = [
     destaque: false,
     descricao: "Compare uso, espaço, conforto e experiência para decidir entre spa, piscina ou uma área de lazer completa.",
     imagem: "../assets/piscina-10.webp",
-    url: "#",
+    url: "artigos/spa-ou-piscina/",
     leitura: "6 min",
-    data: "2026-07-09",
+    data: "2026-08-05",
     tags: ["spa", "hidromassagem", "lazer"]
   }
 ];
