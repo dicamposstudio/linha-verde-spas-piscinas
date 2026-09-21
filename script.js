@@ -87,3 +87,67 @@ function track(name){
   if(typeof window.fbq==='function'&&name.startsWith('whatsapp'))window.fbq('trackCustom','WhatsAppClick',{placement:name,lead_source:leadSource||'site'});
 }
 document.querySelectorAll('[data-track]').forEach(el=>el.addEventListener('click',()=>track(el.dataset.track)));
+
+// Jornada visual "Do quintal à primeira água"
+const processImage=document.querySelector('[data-process-image]');
+const processNumber=document.querySelector('[data-process-number]');
+const processCaption=document.querySelector('[data-process-caption]');
+const processSteps=[...document.querySelectorAll('[data-process-step]')];
+let activeProcessImage=processImage?.getAttribute('src')||'';
+
+function activateProcessStep(step){
+  if(!step)return;
+  processSteps.forEach(item=>item.classList.toggle('is-active',item===step));
+  const nextImage=step.dataset.image;
+  if(processNumber)processNumber.textContent=step.dataset.number||'';
+  if(processCaption)processCaption.textContent=step.dataset.caption||'';
+  if(processImage&&nextImage&&nextImage!==activeProcessImage){
+    const holder=processImage.closest('[data-process-visual]');
+    holder?.classList.add('is-changing');
+    const preload=new Image();
+    preload.onload=()=>{
+      processImage.src=nextImage;
+      activeProcessImage=nextImage;
+      window.setTimeout(()=>holder?.classList.remove('is-changing'),80);
+    };
+    preload.src=nextImage;
+  }
+}
+
+if(processSteps.length&&'IntersectionObserver' in window){
+  const processObserver=new IntersectionObserver(entries=>{
+    const visible=entries.filter(entry=>entry.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
+    if(visible)activateProcessStep(visible.target);
+  },{threshold:[.35,.55,.75],rootMargin:'-22% 0px -38%'});
+  processSteps.forEach(step=>processObserver.observe(step));
+}
+
+// Qualificação curta: prepara a mensagem; não salva respostas.
+const quickGuide=document.querySelector('[data-quick-guide]');
+if(quickGuide){
+  let started=false;
+  const markStarted=()=>{
+    if(started)return;
+    started=true;
+    track('qualifier_start');
+  };
+  quickGuide.addEventListener('change',markStarted,{once:false});
+  quickGuide.addEventListener('focusin',markStarted,{once:false});
+  quickGuide.addEventListener('submit',event=>{
+    event.preventDefault();
+    const data=new FormData(quickGuide);
+    const produto=data.get('produto');
+    const cidade=data.get('cidade');
+    const foto=data.get('foto');
+    if(!produto||!cidade||!foto){
+      quickGuide.reportValidity();
+      return;
+    }
+    let message=`Olá! Vim pelo site da Linha Verde. Estou procurando ${produto}, moro em ${cidade} e ${foto}. Gostaria de receber uma orientação inicial sobre o que faz sentido para o meu espaço.`;
+    if(leadSource==='google_ads')message=identifyGoogleAdsMessage(message);
+    track('qualifier_complete');
+    track('whatsapp_quick_guide');
+    const url=`https://wa.me/5571999997043?text=${encodeURIComponent(message)}`;
+    window.open(url,'_blank','noopener,noreferrer');
+  });
+}

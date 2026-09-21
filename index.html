@@ -10,7 +10,7 @@
   <meta name="theme-color" content="#103f36">
 
   <link rel="canonical" href="https://dicamposstudio.github.io/linha-verde-spas-piscinas/">
-  <link rel="preload" as="image" href="assets/piscina-1.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/hero-piscina-poster.jpg" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -97,60 +97,96 @@
   </header>
 
   <main id="conteudo">
-    <section id="topo" class="hero">
-      <img class="hero-media" src="assets/piscina-1.webp" alt="Piscina residencial moderna em área de lazer" width="864" height="1184" fetchpriority="high">
+    <section id="topo" class="hero hero-cinematic">
+      <video class="hero-media hero-video-home" autoplay muted loop playsinline preload="metadata" poster="assets/hero-piscina-poster.jpg" aria-hidden="true">
+        <source src="assets/video/hero-piscina.mp4" type="video/mp4">
+      </video>
       <div class="hero-shade"></div>
+      <div class="hero-water-glow" aria-hidden="true"></div>
       <div class="container hero-content reveal">
-        <p class="eyebrow">Piscinas, spas e áreas de lazer na Bahia</p>
-        <h1>Transforme o espaço da sua casa em um lugar para viver melhor.</h1>
-        <p class="hero-copy">Venda e instalação de piscinas de fibra, spas e hidromassagens com atendimento em Camaçari, Salvador e região.</p>
+        <p class="eyebrow">Piscinas de fibra e spas em Camaçari, Salvador e região</p>
+        <h1>Seu quintal pode se tornar o lugar onde todo mundo quer ficar.</h1>
+        <p class="hero-copy">A Linha Verde orienta a escolha e acompanha os próximos passos para transformar seu espaço com piscina, spa ou hidromassagem.</p>
         <div class="hero-actions">
-          <a class="button button-primary" data-track="whatsapp_hero" href="https://wa.me/5571999997043?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20minha%20%C3%A1rea%20de%20lazer." target="_blank" rel="noopener noreferrer">Falar com um especialista</a>
-          <a class="button button-secondary" href="#projetos">Conhecer projetos</a>
+          <a class="button button-primary" data-track="whatsapp_hero_space_photo" href="https://wa.me/5571999997043?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Linha%20Verde.%20Quero%20entender%20o%20que%20%C3%A9%20poss%C3%ADvel%20fazer%20no%20meu%20espa%C3%A7o%20e%20posso%20enviar%20uma%20foto." target="_blank" rel="noopener noreferrer">Quero planejar meu espaço</a>
+          <a class="button button-secondary" data-track="hero_projects" href="#projetos">Ver projetos reais</a>
+        </div>
+        <div class="hero-proof" aria-label="Destaques do atendimento">
+          <span>Piscinas</span><i aria-hidden="true"></i><span>Spas</span><i aria-hidden="true"></i><span>Instalações reais</span><i aria-hidden="true"></i><span>Atendimento regional</span>
         </div>
       </div>
       <div class="hero-note reveal">
-        <span>Atendimento próximo</span>
-        <strong>Orientação para escolher a solução adequada ao seu espaço.</strong>
+        <span>Comece sem compromisso</span>
+        <strong>Envie uma foto do espaço e sua cidade para receber uma orientação inicial.</strong>
       </div>
       <a class="scroll-cue" href="#solucoes" aria-label="Ir para a próxima seção">Role para explorar</a>
     </section>
 
-    <section id="solucoes" class="section section-light">
+    <section id="solucoes" class="section section-light experience-section">
       <div class="container">
         <div class="section-heading reveal">
-          <div><p class="kicker">Soluções para sua área externa</p><h2>Mais do que produtos: possibilidades para transformar a rotina.</h2></div>
-          <p>Conheça as principais soluções apresentadas pela Linha Verde e descubra qual combina melhor com sua casa e seus momentos de lazer.</p>
+          <div><p class="kicker">O que você imagina para o seu espaço?</p><h2>Duas experiências. Duas formas de viver melhor em casa.</h2></div>
+          <p>Piscinas e spas atendem desejos diferentes. Por isso, a Linha Verde apresenta cada solução a partir do que ela pode proporcionar — e do que o seu espaço realmente permite.</p>
         </div>
-        <div class="solution-grid">
-          <article class="solution-card reveal">
-            <img src="assets/piscina-3.webp" alt="Piscina de fibra em área residencial" loading="lazy" width="1200" height="1600">
-            <div><span>01</span><h3>Piscinas de fibra</h3><p>Modelos para diferentes tamanhos de quintal, perfis de uso e projetos residenciais.</p><a href="#projetos">Ver inspirações</a></div>
+        <div class="experience-grid">
+          <article class="experience-panel experience-pool reveal">
+            <img src="assets/piscina-3.webp" alt="Piscina de fibra integrada a uma área residencial" loading="lazy" width="1200" height="1600">
+            <div class="experience-overlay"></div>
+            <div class="experience-content">
+              <span>01 · Piscinas</span>
+              <h3>Um espaço para reunir.</h3>
+              <p>Modelos de fibra para diferentes áreas, com orientação para escolher de forma mais segura.</p>
+              <a class="experience-link" data-track="pool_interest" href="#processo">Entender como funciona <b aria-hidden="true">→</b></a>
+            </div>
           </article>
-          <article class="solution-card reveal">
-            <img src="assets/piscina-10.webp" alt="Spa residencial integrado à área de lazer" loading="lazy" width="1200" height="1600">
-            <div><span>02</span><h3>Spas e hidromassagens</h3><p>Conforto para relaxar, receber e aproveitar a casa em qualquer época do ano.</p><a data-track="whatsapp_spa" href="https://wa.me/5571999997043?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20as%20op%C3%A7%C3%B5es%20de%20spas." target="_blank" rel="noopener noreferrer">Consultar opções</a></div>
+          <article class="experience-panel experience-spa reveal">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/piscina-11.webp" aria-label="Spa real em funcionamento">
+              <source src="assets/video/spa-real.mp4" type="video/mp4">
+            </video>
+            <div class="experience-overlay"></div>
+            <div class="experience-content">
+              <span>02 · Spas</span>
+              <h3>Um espaço para desacelerar.</h3>
+              <p>Hidromassagem, conforto e bem-estar para criar um refúgio dentro de casa.</p>
+              <a class="experience-link" data-track="whatsapp_spa_interest" href="https://wa.me/5571999997043?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20conhecer%20as%20op%C3%A7%C3%B5es%20de%20spas%20da%20Linha%20Verde." target="_blank" rel="noopener noreferrer">Conhecer opções <b aria-hidden="true">→</b></a>
+            </div>
           </article>
-          <article class="solution-card reveal">
-            <img src="assets/piscina-4.webp" alt="Área de lazer completa com piscina" loading="lazy" width="1200" height="1600">
-            <div><span>03</span><h3>Áreas de lazer</h3><p>Soluções pensadas para criar ambientes de convivência, descanso e valorização da casa.</p><a data-track="whatsapp_lazer" href="https://wa.me/5571999997043?text=Ol%C3%A1%2C%20quero%20conversar%20sobre%20minha%20%C3%A1rea%20de%20lazer." target="_blank" rel="noopener noreferrer">Conversar sobre o espaço</a></div>
-          </article>
+        </div>
+        <div class="experience-foot reveal">
+          <p><strong>Ainda não sabe qual solução faz mais sentido?</strong> Você não precisa decidir antes de conversar.</p>
+          <a data-track="whatsapp_solution_help" href="https://wa.me/5571999997043?text=Ol%C3%A1%21%20Vim%20pelo%20site.%20Ainda%20n%C3%A3o%20sei%20se%20uma%20piscina%20ou%20um%20spa%20%C3%A9%20a%20melhor%20op%C3%A7%C3%A3o%20para%20meu%20espa%C3%A7o." target="_blank" rel="noopener noreferrer">Pedir uma orientação inicial</a>
         </div>
       </div>
     </section>
 
-    <section id="projetos" class="section projects-section">
+    <section id="projetos" class="section projects-section projects-real-section">
       <div class="container">
         <div class="section-heading reveal">
-          <div><p class="kicker">Projetos e inspirações</p><h2>Ambientes que convidam a ficar mais tempo em casa.</h2></div>
-          <p>Uma seleção de piscinas, spas e composições para inspirar seu projeto. Clique em uma imagem para ampliar.</p>
+          <div><p class="kicker">Projetos reais</p><h2>Não é apenas inspiração. É trabalho realizado.</h2></div>
+          <p>Registros reais ajudam você a visualizar tamanhos, acabamentos e possibilidades de instalação antes de iniciar a conversa.</p>
         </div>
+
+        <article class="real-project-feature reveal" aria-labelledby="real-project-title">
+          <div class="real-project-copy">
+            <span class="project-tag">Registro real de instalação</span>
+            <h3 id="real-project-title">Do processo ao espaço pronto.</h3>
+            <p>Uma piscina não chega pronta ao quintal. Preparação, instalação e acabamento fazem parte da transformação — e mostrar o processo ajuda a tornar a decisão mais segura.</p>
+            <div class="real-project-facts"><span>Execução real</span><span>Piscina residencial</span><span>Registro da Linha Verde</span></div>
+            <a class="button button-dark" data-track="whatsapp_project" href="https://wa.me/5571999997043?text=Ol%C3%A1%21%20Vi%20os%20projetos%20reais%20no%20site%20e%20quero%20entender%20como%20seria%20uma%20instala%C3%A7%C3%A3o%20no%20meu%20espa%C3%A7o." target="_blank" rel="noopener noreferrer">Conversar sobre meu espaço</a>
+          </div>
+          <div class="real-project-sequence" aria-label="Registros do processo e do resultado">
+            <figure><img src="assets/projeto-real-processo.webp" alt="Piscina durante etapa de instalação em área residencial" loading="lazy" width="1400" height="788"><figcaption><small>Processo</small>Instalação em andamento</figcaption></figure>
+            <figure><img src="assets/projeto-real-final.webp" alt="Piscina residencial finalizada e cheia" loading="lazy" width="1400" height="788"><figcaption><small>Resultado</small>Área pronta para uso</figcaption></figure>
+          </div>
+        </article>
+
+        <div class="project-subheading reveal"><p class="kicker">Mais ambientes reais</p><h3>Veja como diferentes espaços podem receber uma piscina.</h3></div>
         <div class="project-grid" data-gallery>
-          <button class="project-card project-large reveal" type="button" data-lightbox="assets/piscina-1.webp" aria-label="Ampliar projeto de piscina residencial moderna"><img src="assets/piscina-1.webp" alt="Piscina residencial moderna instalada na Bahia" loading="lazy" width="864" height="1184"><span><small>Piscinas residenciais</small>Conforto e integração com a casa</span></button>
-          <button class="project-card reveal" type="button" data-lightbox="assets/piscina-5.webp" aria-label="Ampliar projeto de área de lazer"><img src="assets/piscina-5.webp" alt="Piscina integrada a jardim e área de lazer" loading="lazy" width="1200" height="1600"><span><small>Áreas externas</small>Integração com o paisagismo</span></button>
-          <button class="project-card reveal" type="button" data-lightbox="assets/piscina-7.webp" aria-label="Ampliar projeto de piscina compacta"><img src="assets/piscina-7.webp" alt="Piscina compacta com acabamento contemporâneo" loading="lazy" width="1200" height="1600"><span><small>Espaços compactos</small>Bom aproveitamento do quintal</span></button>
-          <button class="project-card reveal" type="button" data-lightbox="assets/piscina-10.webp" aria-label="Ampliar projeto de spa residencial"><img src="assets/piscina-10.webp" alt="Spa residencial instalado em área externa" loading="lazy" width="1200" height="1600"><span><small>Spas</small>Relaxamento com sofisticação</span></button>
-          <button class="project-card reveal" type="button" data-lightbox="assets/piscina-8.webp" aria-label="Ampliar projeto de piscina familiar"><img src="assets/piscina-8.webp" alt="Piscina familiar em área de convivência" loading="lazy" width="1200" height="1600"><span><small>Convivência</small>Um novo ponto de encontro</span></button>
+          <button class="project-card project-large reveal" type="button" data-track="project_view" data-lightbox="assets/piscina-1.webp" aria-label="Ampliar piscina residencial em jardim"><img src="assets/piscina-1.webp" alt="Piscina residencial instalada em jardim" loading="lazy" width="864" height="1184"><span><small>Projeto real</small>Piscina integrada ao jardim</span></button>
+          <button class="project-card reveal" type="button" data-track="project_view" data-lightbox="assets/piscina-5.webp" aria-label="Ampliar piscina com deck"><img src="assets/piscina-5.webp" alt="Piscina residencial com deck" loading="lazy" width="1200" height="1600"><span><small>Projeto real</small>Deck e área de convivência</span></button>
+          <button class="project-card reveal" type="button" data-track="project_view" data-lightbox="assets/piscina-7.webp" aria-label="Ampliar piscina em espaço compacto"><img src="assets/piscina-7.webp" alt="Piscina instalada em quintal compacto" loading="lazy" width="1200" height="1600"><span><small>Espaço compacto</small>Aproveitamento do quintal</span></button>
+          <button class="project-card reveal" type="button" data-track="project_view" data-lightbox="assets/piscina-8.webp" aria-label="Ampliar piscina compacta com hidromassagem"><img src="assets/piscina-8.webp" alt="Piscina compacta em área residencial" loading="lazy" width="1200" height="1600"><span><small>Convivência</small>Um novo ponto de encontro</span></button>
+          <button class="project-card reveal" type="button" data-track="project_view" data-lightbox="assets/piscina-9.webp" aria-label="Ampliar piscina em área residencial"><img src="assets/piscina-9.webp" alt="Piscina de fibra em área residencial" loading="lazy" width="1200" height="1600"><span><small>Projeto real</small>Solução para área residencial</span></button>
         </div>
       </div>
     </section>
@@ -180,15 +216,64 @@
       </div>
     </section>
 
-    <section id="processo" class="section process-section">
+    <section id="processo" class="section process-section process-story-section">
       <div class="container">
-        <div class="section-heading reveal"><div><p class="kicker">Como funciona</p><h2>Do primeiro contato à escolha da solução.</h2></div><p>Um fluxo simples ajuda você a entender possibilidades e avançar com mais segurança.</p></div>
-        <ol class="process-list">
-          <li class="reveal"><span>01</span><h3>Conte sua ideia</h3><p>Informe a cidade, envie fotos e compartilhe medidas aproximadas do local.</p></li>
-          <li class="reveal"><span>02</span><h3>Receba orientação</h3><p>A equipe entende o perfil do espaço e apresenta caminhos possíveis.</p></li>
-          <li class="reveal"><span>03</span><h3>Avalie as opções</h3><p>Compare modelos, características e condições antes de escolher.</p></li>
-          <li class="reveal"><span>04</span><h3>Avance para o projeto</h3><p>Com a decisão tomada, são definidos os próximos passos da instalação.</p></li>
-        </ol>
+        <div class="section-heading reveal"><div><p class="kicker">Do quintal à primeira água</p><h2>Entender o processo reduz a insegurança antes da compra.</h2></div><p>Em vez de escolher apenas por uma foto, comece pelo espaço, pelas necessidades e pelos próximos passos da instalação.</p></div>
+        <div class="process-story">
+          <div class="process-visual reveal" data-process-visual>
+            <img src="assets/projeto-real-processo.webp" alt="Registro real de uma piscina durante a instalação" data-process-image>
+            <div class="process-visual-caption"><span data-process-number>01</span><strong data-process-caption>Comece pelo seu espaço.</strong></div>
+          </div>
+          <ol class="process-chapters">
+            <li class="process-chapter is-active" data-process-step data-image="assets/projeto-real-processo.webp" data-number="01" data-caption="Comece pelo seu espaço.">
+              <span>01</span><div><p class="chapter-kicker">O espaço</p><h3>Envie fotos e conte como você imagina usar a área.</h3><p>Cidade, medidas aproximadas e algumas imagens já ajudam a iniciar uma orientação mais objetiva.</p></div>
+            </li>
+            <li class="process-chapter" data-process-step data-image="assets/piscina-6.webp" data-number="02" data-caption="Compare possibilidades com orientação.">
+              <span>02</span><div><p class="chapter-kicker">A escolha</p><h3>Entenda quais soluções combinam com o seu quintal.</h3><p>O objetivo é comparar opções coerentes com o espaço e com a forma como sua família pretende usar a piscina ou spa.</p></div>
+            </li>
+            <li class="process-chapter" data-process-step data-image="assets/projeto-real-processo.webp" data-number="03" data-caption="Veja o projeto ganhar forma.">
+              <span>03</span><div><p class="chapter-kicker">A instalação</p><h3>A transformação acontece etapa por etapa.</h3><p>Preparação, instalação e acabamento fazem parte do processo. Registros reais ajudam a visualizar essa evolução.</p></div>
+            </li>
+            <li class="process-chapter" data-process-step data-image="assets/projeto-real-final.webp" data-number="04" data-caption="Chega a hora da primeira água.">
+              <span>04</span><div><p class="chapter-kicker">O resultado</p><h3>O quintal deixa de ser apenas um espaço livre.</h3><p>Com o projeto concluído, ele passa a ser um lugar de convivência, descanso e lazer dentro de casa.</p></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guide-section" aria-labelledby="guide-title">
+      <div class="container guide-grid">
+        <div class="guide-copy reveal">
+          <p class="kicker">Comece pelo que você já tem</p>
+          <h2 id="guide-title">Não sabe qual piscina cabe no seu espaço?</h2>
+          <p>Você não precisa chegar com o modelo escolhido. Responda três perguntas rápidas e abra o WhatsApp com uma mensagem já preparada para o atendimento.</p>
+          <a class="text-link guide-direct" data-track="whatsapp_send_space_photo" href="https://wa.me/5571999997043?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Linha%20Verde%20e%20quero%20enviar%20uma%20foto%20do%20meu%20espa%C3%A7o%20para%20receber%20uma%20orienta%C3%A7%C3%A3o%20inicial." target="_blank" rel="noopener noreferrer">Prefiro enviar uma foto direto pelo WhatsApp</a>
+        </div>
+        <form class="quick-guide reveal" data-quick-guide>
+          <fieldset>
+            <legend>1. O que você procura?</legend>
+            <div class="choice-row">
+              <label><input type="radio" name="produto" value="uma piscina" required><span>Piscina</span></label>
+              <label><input type="radio" name="produto" value="um spa"><span>Spa</span></label>
+              <label><input type="radio" name="produto" value="orientação para escolher"><span>Ainda não sei</span></label>
+            </div>
+          </fieldset>
+          <label class="field-label" for="guide-city">2. Em qual cidade?</label>
+          <select id="guide-city" name="cidade" required>
+            <option value="">Selecione</option>
+            <option>Camaçari</option><option>Salvador</option><option>Lauro de Freitas</option><option>Simões Filho</option><option>Candeias</option><option>Mata de São João</option><option>Outra cidade</option>
+          </select>
+          <fieldset>
+            <legend>3. Já possui foto do espaço?</legend>
+            <div class="choice-row choice-row-small">
+              <label><input type="radio" name="foto" value="já tenho fotos do espaço" required><span>Sim</span></label>
+              <label><input type="radio" name="foto" value="ainda não tenho fotos do espaço"><span>Ainda não</span></label>
+            </div>
+          </fieldset>
+          <button class="button button-dark guide-submit" type="submit">Continuar no WhatsApp</button>
+          <p class="guide-privacy">Nenhum dado é armazenado neste formulário. As respostas apenas preparam sua mensagem no WhatsApp.</p>
+        </form>
       </div>
     </section>
 
@@ -219,10 +304,18 @@
       </div>
     </section>
 
-    <section class="final-cta">
-      <img src="assets/piscina-4.webp" alt="Área de lazer residencial com piscina" loading="lazy" width="1200" height="1600">
+    <section class="final-cta final-cta-cinematic">
+      <video class="final-video" autoplay muted loop playsinline preload="metadata" poster="assets/projeto-real-final.webp" aria-hidden="true">
+        <source src="assets/video/hero-piscina.mp4" type="video/mp4">
+      </video>
       <div class="final-overlay"></div>
-      <div class="container final-content reveal"><p class="eyebrow">Seu próximo espaço favorito pode começar aqui</p><h2>Vamos conversar sobre a sua área de lazer?</h2><p>Envie fotos, medidas aproximadas e sua cidade para receber uma orientação inicial.</p><a class="button button-primary button-large" data-track="whatsapp_final" href="https://wa.me/5571999997043?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20para%20minha%20%C3%A1rea%20de%20lazer." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a></div>
+      <div class="container final-content reveal">
+        <p class="eyebrow">Seu projeto pode começar com uma foto</p>
+        <h2>Mostre o seu quintal. A Linha Verde ajuda você a entender os próximos passos.</h2>
+        <p>Envie uma foto do espaço, sua cidade e uma medida aproximada. A conversa começa pela orientação, não pela obrigação de comprar.</p>
+        <div class="final-steps" aria-label="Como iniciar o atendimento"><span><b>1</b> Envie uma foto</span><span><b>2</b> Informe sua cidade</span><span><b>3</b> Receba uma orientação inicial</span></div>
+        <a class="button button-primary button-large" data-track="whatsapp_send_space_photo_final" href="https://wa.me/5571999997043?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Linha%20Verde.%20Quero%20enviar%20uma%20foto%20do%20meu%20espa%C3%A7o%20e%20receber%20uma%20orienta%C3%A7%C3%A3o%20inicial." target="_blank" rel="noopener noreferrer">Enviar meu espaço pelo WhatsApp</a>
+      </div>
     </section>
   </main>
 
