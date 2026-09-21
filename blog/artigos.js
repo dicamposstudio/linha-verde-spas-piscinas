@@ -1,5 +1,16 @@
 const artigos = [
   {
+    titulo: "Como escolher o tamanho da piscina de fibra?",
+    categoria: "Piscinas",
+    destaque: false,
+    descricao: "Veja o que medir no quintal e como comparar as dimensões dos modelos antes de pedir orçamento.",
+    imagem: "../assets/projeto-real-final.webp",
+    url: "artigos/como-escolher-tamanho-piscina-fibra/",
+    leitura: "9 min",
+    data: "2026-09-21",
+    tags: ["tamanho", "medidas", "quintal", "piscina de fibra"]
+  },
+  {
     titulo: "Quanto custa instalar uma piscina em Salvador?",
     categoria: "Custos",
     destaque: true,

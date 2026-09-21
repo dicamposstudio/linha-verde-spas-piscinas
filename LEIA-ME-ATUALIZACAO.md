@@ -43,3 +43,15 @@ As URLs locais continuam inalteradas, incluindo Camaçari, Salvador, Lauro de Fr
 - após publicar, testar o evento `click_whatsapp` no GA4/GTM para garantir que os novos links continuam entrando no mesmo acompanhamento;
 - acompanhar PageSpeed em mobile após a publicação;
 - comparar GA4 e Search Console com a linha de base de 01–15/09/2026.
+
+
+## SEO orgânico — atualização 21/09/2026
+
+- Criado hub `/modelos-piscinas/` com medidas do catálogo de referência disponibilizado pela Linha Verde.
+- Criado hub `/projetos/` e caso indexável `/projetos/piscina-residencial-instalacao-real/`.
+- Criado artigo `/blog/artigos/como-escolher-tamanho-piscina-fibra/`.
+- Páginas locais receberam Open Graph, robots, Service + Breadcrumb + FAQ schema, FAQ visível e links internos para modelos, projeto real e conteúdos comerciais.
+- Home e blog ganharam links para os novos hubs.
+- Sitemap atualizado com as novas URLs e datas de modificação.
+- Nenhuma cidade foi atribuída ao projeto real porque o material fornecido não identifica a localização do caso.
+- A página de modelos deixa claro que medidas vêm do catálogo de referência e não equivalem a confirmação de estoque, preço ou disponibilidade.
