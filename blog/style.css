@@ -53,3 +53,15 @@ a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
 .guide-checklist{margin:28px 0;padding:24px 26px;border:1px solid rgba(15,95,74,.18);border-radius:20px;background:#fff;box-shadow:0 12px 32px rgba(8,61,49,.06)}
 .guide-checklist>strong{display:block;color:var(--green-dark);font-size:19px;margin-bottom:10px}.guide-checklist ul{margin-bottom:0}
 @media(max-width:640px){.article-toc ol{columns:1}.guide-list a{padding:24px}.article-toc{padding:22px}}
+
+/* Links editoriais entre blog e páginas de atendimento regional */
+.local-route{padding-top:0}
+.local-route .section-head p:last-child{color:var(--muted);max-width:720px;line-height:1.65}
+.local-route-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.local-route-grid a{display:flex;flex-direction:column;gap:10px;padding:24px 26px;border:1px solid var(--line);border-radius:var(--radius);background:#fff;box-shadow:0 10px 24px rgba(8,61,49,.05);text-decoration:none}
+.local-route-grid a:hover,.local-route-grid a:focus-visible{border-color:var(--green);outline-offset:3px}
+.local-route-grid strong{font-family:"Playfair Display",serif;font-size:clamp(19px,2vw,24px);color:var(--ink)}
+.local-route-grid span{font-size:14px;line-height:1.5;color:var(--muted)}
+.local-route-reading{margin:24px 0 0;line-height:1.7;color:var(--muted)}
+.local-route-reading a{color:var(--green);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:680px){.local-route-grid{grid-template-columns:1fr}.local-route-grid a{padding:22px}}
